@@ -1,0 +1,28 @@
+nav {
+    width: 100vw;
+    background-color: rgb(5, 3, 10);
+    padding: 30px;
+ 
+    color: rgb(230, 220, 220);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.current {
+    color: red;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    display: inline;
+    align-items: center ;
+    justify-content:  space-between;
+}
